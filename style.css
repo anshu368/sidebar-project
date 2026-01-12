@@ -95,6 +95,7 @@
 .sidebar_menu .menu a {
     color: white;
     text-decoration: none;
+    font-size: 10px;
 
     
 }
@@ -106,7 +107,7 @@
 
 .sidebar_menu .social_media {
     position: absolute;
-    bottom: 30px;
+    bottom: 10px;
     left: 30%;
 
 }
