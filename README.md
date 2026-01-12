@@ -1,2 +1,2 @@
-# Sidebar priject
+# Sidebar project
 created by ansh agrahari
