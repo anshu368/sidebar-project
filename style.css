@@ -54,6 +54,7 @@
     left: 50px;
     color: white;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .btn_two {
@@ -61,7 +62,7 @@
     color: white;
     font-size: 20px;
     line-height: 60px;
-    left: 200px;
+    left: 228px;
     cursor: pointer;
     opacity: 0.5;
     transition: all 0.2s linear;
@@ -81,7 +82,7 @@
 
 .sidebar_menu .menu li {
     padding: 10px 20px;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
     transition: transform 0.1s ease;
 }
 
@@ -92,10 +93,10 @@
 }
 
 .sidebar_menu .menu i,
-.sidebar_menu .menu a {
+ a {
     color: white;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 18px;
 
     
 }
@@ -107,7 +108,7 @@
 
 .sidebar_menu .social_media {
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
     left: 30%;
 
 }
