@@ -11,7 +11,7 @@
 
 }
 
-.btn_one  {
+.btn_one {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -19,7 +19,7 @@
     line-height: 60px;
     cursor: pointer;
     opacity: 0.5;
-     transition: all 0.3s linear;
+    transition: all 0.3s linear;
 }
 
 .btn_one:hover {
@@ -34,7 +34,7 @@
     width: 250px;
     background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 6px rgba(255, 255, 255, 0.1);
-     transition: all 0.3s linear;
+    transition: all 0.3s linear;
 }
 
 
@@ -64,7 +64,7 @@
     left: 200px;
     cursor: pointer;
     opacity: 0.5;
-     transition: all 0.2s linear;
+    transition: all 0.2s linear;
 }
 
 .btn_two:hover {
@@ -82,7 +82,7 @@
 .sidebar_menu .menu li {
     padding: 10px 20px;
     margin-bottom: 2px;
-    font-size: 12px;
+
     transition: transform 0.1s ease;
 }
 
@@ -96,7 +96,7 @@
 .sidebar_menu .menu a {
     color: white;
     text-decoration: none;
-
+    font-size: 12px;
 }
 
 .sidebar_menu .menu i {
@@ -127,15 +127,15 @@
     display: none;
 }
 
-#check:checked ~ .sidebar_menu {
+#check:checked~.sidebar_menu {
     left: 0;
 }
 
-#check:checked ~ .btn_one {
+#check:checked~.btn_one {
     opacity: 0;
 }
 
 
-#check:checked ~ .btn_two {
+#check:checked~.btn_two {
     opacity: 1;
 }
