@@ -5,9 +5,12 @@
 }
 
 .main_box {
-    height: 100vh;
+
+    min-height: 100vh;
     background-image: url(photo.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
 
@@ -140,4 +143,10 @@
 
 #check:checked~.btn_two {
     opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .main_box {
+        background-position: center top;
+    }
 }
